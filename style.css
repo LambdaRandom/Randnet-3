@@ -1,0 +1,59 @@
+@font-face {
+    font-family: Consolas;
+    src: url(resources/Consolas-Regular.ttf);
+}
+
+* {
+    font-family: Consolas;
+    background-color: black;
+    color: white;
+    margin: 0px; padding: 0px;
+    overflow-y: scroll;
+
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+.middle_column {
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 50px;
+}
+
+.title {
+    font-size: 200%;
+    display: flex;
+    flex-direction: row;
+}
+
+.gifbar {
+    display: flex;
+    margin-left: auto;
+    align-self: center;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #444;
+}
+
+p {
+    margin: 7px;
+}
+
+.navbar {
+    display: flex;
+}
+
+.book {
+    padding: 5px;
+    font-size: 90%;
+}
