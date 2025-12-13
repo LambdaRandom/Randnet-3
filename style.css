@@ -75,3 +75,18 @@ h3 {
 .clickable.open::after {
     content: " ▸";
 }
+
+.friend-ring {
+    display: flex;
+    margin-top: 14px; margin-bottom: 14px;
+}
+
+.friend-ring a {
+    width: 88px;
+    height: 31px;
+    margin-right: 7px;
+}
+
+.friend-ring a:hover {
+    filter: brightness(120%);
+}
