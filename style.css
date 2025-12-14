@@ -58,7 +58,7 @@ h3 {
 }
 
 .book {
-    padding: 5px;
+    margin: 5px;
     font-size: 90%;
 }
 
@@ -89,4 +89,8 @@ h3 {
 
 .friend-ring a:hover {
     filter: brightness(120%);
+}
+
+.blogpost {
+    margin-left: 7px;
 }
