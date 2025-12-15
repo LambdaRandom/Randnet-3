@@ -76,12 +76,12 @@ h3 {
 }
 
 .dropdown::after {
-    content: " ⌄";
+    content: " ▾";
     font-size: 0.8em;
 }
 
 .dropdown.open::after {
-    content: " ›";
+    content: " ▸";
 }
 
 .friend-ring {
