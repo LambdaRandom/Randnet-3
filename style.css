@@ -100,7 +100,7 @@ h3 {
 .friend-ring a {
     width: 88px;
     height: 31px;
-    margin-right: 7px;
+    margin-right: 3.5px; margin-left: 3.5px;
 }
 
 .friend-ring a:hover {
