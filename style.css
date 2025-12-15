@@ -24,7 +24,7 @@
     margin-top: 50px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1250px) {
     .middle_column {
         width: 94%;
         margin-left: 3%;
