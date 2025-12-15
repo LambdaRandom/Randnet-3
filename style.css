@@ -35,6 +35,7 @@
     margin-left: auto;
     align-self: center;
     height: 100%;
+    min-width: 88px;
 }
 
 a {
@@ -43,6 +44,7 @@ a {
 
 a:hover {
     background-color: #444;
+    text-decoration: underline;
 }
 
 p {
@@ -64,16 +66,22 @@ h3 {
 
 .clickable:hover {
     cursor: pointer;
+    text-decoration: underline;
     background-color: #444;
 }
 
-.clickable::after {
-    content: " ▾";
+.dropdown:hover {
+    cursor: pointer;
+    background-color: #444;
+}
+
+.dropdown::after {
+    content: " ⌄";
     font-size: 0.8em;
 }
 
-.clickable.open::after {
-    content: " ▸";
+.dropdown.open::after {
+    content: " ›";
 }
 
 .friend-ring {
