@@ -3,6 +3,13 @@
     src: url(resources/Consolas-Regular.ttf);
 }
 
+:root {
+    --nav-red: #f32;
+    --nav-orange: #fa1;
+    --nav-yellow: #fe0;
+    --nav-blue: #36f;
+}
+
 * {
     font-family: Consolas;
     background-color: black;
@@ -110,4 +117,8 @@ h3 {
 
 .blogpost {
     margin-left: 7px;
+}
+
+.book-title {
+    color: var(--nav-orange);
 }
