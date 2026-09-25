@@ -8,11 +8,14 @@
     --nav-orange: #fa1;
     --nav-yellow: #fe0;
     --nav-blue: #36f;
+
+    --hover-background: #333;
+    --background-color: #111;
 }
 
 * {
     font-family: Consolas;
-    background-color: black;
+    background-color: var(--background-color);
     color: white;
     margin: 0px; padding: 0px;
     overflow-y: scroll;
@@ -59,7 +62,7 @@ a {
 }
 
 a:hover {
-    background-color: #444;
+    background-color: var(--hover-background);
     text-decoration: underline;
 }
 
@@ -83,12 +86,12 @@ h3 {
 .clickable:hover {
     cursor: pointer;
     text-decoration: underline;
-    background-color: #444;
+    background-color: var(--hover-background);
 }
 
 .dropdown:hover {
     cursor: pointer;
-    background-color: #444;
+    background-color: var(--hover-background);
 }
 
 .dropdown::after {
