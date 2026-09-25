@@ -9,6 +9,7 @@
     --nav-yellow: #fe0;
     --nav-blue: #36f;
 
+    --light-gray-accent: #444;
     --hover-background: #333;
     --background-color: #111;
 }
@@ -62,7 +63,6 @@ a {
 }
 
 a:hover {
-    background-color: var(--hover-background);
     text-decoration: underline;
 }
 
@@ -76,6 +76,11 @@ h3 {
 
 .navbar {
     display: flex;
+    background-color: var(--hover-background);
+}
+
+.navbar p, .navbar a {
+    background-color: var(--hover-background);
 }
 
 .book {
@@ -123,7 +128,6 @@ h3 {
 }
 
 .book-title {
-    color: white;
     font-size: 1.1em;
     margin-left: 0px;
     text-decoration: underline;
