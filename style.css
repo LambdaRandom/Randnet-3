@@ -19,7 +19,6 @@
     background-color: var(--background-color);
     color: white;
     margin: 0px; padding: 0px;
-    overflow-y: scroll;
 
     -ms-overflow-style: none;
     scrollbar-width: none;
@@ -27,6 +26,10 @@
 
 *::-webkit-scrollbar {
     display: none;
+}
+
+html, body {
+    overflow-y: scroll;
 }
 
 .middle_column {
@@ -47,6 +50,7 @@
     font-size: 200%;
     display: flex;
     flex-direction: row;
+    overflow: visible;
     text-shadow: #ffffff 0px 0px 10px;
 }
 
