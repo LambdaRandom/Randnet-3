@@ -91,6 +91,10 @@ h3 {
 .navbar {
     display: flex;
     background-color: var(--hover-background);
+
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
 }
 
 .navbar p, .navbar a {
